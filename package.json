@@ -1,9 +1,10 @@
 {
   "name": "twilio_example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example twilio application for startup academy",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,6 +13,9 @@
     "express": "^4.13.3",
     "jade": "^1.11.0",
     "twilio": "^2.4.0"
+  },
+  "engines": {
+    "node": "0.12.7"
   },
   "devDependencies": {
     "grunt": "^0.4.5"
