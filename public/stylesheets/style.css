@@ -1,16 +1,19 @@
 body {
 	background-color: grey;
 	padding: 20px;
+	position:relative;
 }
 
 #content {
 	text-align: center;
-	margin: 0 auto;
 	width:30%;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
 
 	background-color: antiquewhite;
     padding: 10px 15px;
-    height: 100%;
 }
 
 #content h1 {
@@ -26,11 +29,3 @@ body {
 	margin:0;
 }
 
-button {
-	/*font-size: 20px;
-    padding: 10px;
-    font-weight: bold;
-    background-color: #7CBAE9;
-    border: 0px;
-    color: white;*/
-}
