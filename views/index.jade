@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="http://cdn.foundation5.zurb.com/foundation.js"></script>
+<script src="js/main.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/normalize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
+<link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+
+<div id="content">
+
+<h1>SEND A SWEET TEXT MESSAGE</h1>
+
+<input placeholder="Enter your phone number." type="text" id="phone_number">
+<br/>
+<textarea placeholder="Enter a message." name="text_body" id="text_body" cols="30" rows="10"></textarea>
+<br/>
+<button id="send_button">Send</button>
+<button id="clear_button">Clear</button>
+
+</div>
+
+<div id="congrats_modal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+<h2 id="modalTitle">MESSAGE SENT</h2>
+<p>And now we wait for an answer.</p>
+<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+<div id="error_modal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+<h2 id="modalTitle">SOMETHING WENT WRONG!!!</h2>
+<p>TRY IT AGAIN.</p>
+<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+</body>
+
+</html>

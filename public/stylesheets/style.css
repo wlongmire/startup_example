@@ -1,0 +1,36 @@
+body {
+	background-color: grey;
+	padding: 20px;
+}
+
+#content {
+	text-align: center;
+	margin: 0 auto;
+	width:30%;
+
+	background-color: antiquewhite;
+    padding: 10px 15px;
+    height: 100%;
+}
+
+#content h1 {
+	font-weight: bold;
+    color: grey;
+    font-size: 13px;
+    padding: 10px;
+}
+
+#content input, #content textarea {
+	width:100%;
+	font-size:20px;
+	margin:0;
+}
+
+button {
+	/*font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #7CBAE9;
+    border: 0px;
+    color: white;*/
+}
